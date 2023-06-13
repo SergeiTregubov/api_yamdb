@@ -72,3 +72,6 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+
+Автор: [Трегубов Сергей](https://github.com/SergeiTregubov)
