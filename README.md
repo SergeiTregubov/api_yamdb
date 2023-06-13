@@ -40,7 +40,7 @@ git clone https://github.com/SergeiTregubov/api_yamdb.git
 ```
 Cоздать и активировать виртуальное окружение:
 ```
-python3 -m venv venv
+python -m venv venv
 ```
 Активировать виртуальное окружение:
 ```
@@ -48,7 +48,7 @@ source venv/Scripts/activate
 ```
 Установить зависимости из файла requirements.txt:
 ```
-python3 -m pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 Переходим в папку cd api_yamdb/:
@@ -58,9 +58,9 @@ cd api_yamdb/
 
 Выполнить миграции:
 ```
-python3 manage.py migrate
+python manage.py migrate
 ```
 Запустить проект:
 ```
-python3 manage.py runserver
+python manage.py runserver
 ```
